@@ -1,0 +1,8 @@
+#download thumbnail 
+#youtube-dl -a "D:\My Folder\Dailymotion\urls.bat" -o "D:\My Folder\Dailymotion\thumbnails\new_thumbs\%(title)s.%(ext)s" --write-thumbnail --skip-download
+
+#download video
+#youtube-dl -a "D:\My Folder\Dailymotion\urls_download.bat" -o "D:\My Folder\Dailymotion\Download_DM\%(title)s.%(ext)s" -f best 
+
+#download description
+# youtube-dl -a "D:\My Folder\Dailymotion\urls_download.bat" -o "D:\My Folder\Dailymotion\Download_DM\%(title)s.%(ext)s" --skip-download --write-description --write-info-json --write-auto-sub
